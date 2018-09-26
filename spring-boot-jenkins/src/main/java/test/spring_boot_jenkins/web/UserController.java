@@ -14,7 +14,7 @@ public class UserController {
 	
 	   @Autowired
 	   UserService userService;
-   public void test(){};
+	
 	   @RequestMapping("/info/{id}")
 	   @ResponseBody
 	   public Object getUserById(@PathVariable Long id){
