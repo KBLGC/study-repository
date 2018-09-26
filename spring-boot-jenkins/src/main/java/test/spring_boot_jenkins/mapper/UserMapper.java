@@ -1,5 +1,8 @@
 package test.spring_boot_jenkins.mapper;
 
-public interface UserMapper{
+import test.spring_boot_jenkins.entity.User;
+import tk.mybatis.mapper.common.Mapper;
+
+public interface UserMapper extends Mapper<User>{
 
 }
