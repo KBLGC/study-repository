@@ -1,5 +1,8 @@
 package test.spring_boot_jenkins.service;
 
-public interface UserService {
+import test.spring_boot_jenkins.entity.User;
 
+public interface UserService {
+    
+	public User getUserById(Long id);
 }
