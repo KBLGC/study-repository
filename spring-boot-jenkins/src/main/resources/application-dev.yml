@@ -9,3 +9,6 @@ spring:
     
 mybatis: 
   type-aliases-package: test.spring_boot_jenkins.entity
+  
+spring:
+     datasource:
