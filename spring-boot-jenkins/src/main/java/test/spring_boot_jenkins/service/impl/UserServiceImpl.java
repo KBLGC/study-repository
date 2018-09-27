@@ -14,7 +14,8 @@ public class UserServiceImpl implements UserService{
 	UserMapper userMapper;
 
 	@Override
-	public User getUserById(Long id) {		
+	public User getUserById(Long id) {
+		
 		return userMapper.selectOne(new User(id));
 	}
       
