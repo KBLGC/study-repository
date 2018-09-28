@@ -20,8 +20,7 @@ public class UserController {
 	
 	   @RequestMapping("/info/{id}")
 	   @ResponseBody
-	   public Object getUserById(@RequestAttribute String attribute,@PathVariable Long id){
-		   System.out.println("attribute:"+attribute);
+	   public Object getUserById(@PathVariable Long id){
 		   return userService.getUserById(id);
 	   }
 }
