@@ -10,7 +10,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import test.spring_boot_jenkins.interceptor.UrlInterceptor;
 
 @Configuration
-//@EnableWebMvc
 public class InterceptorConfig implements WebMvcConfigurer{
 	
 	@Autowired
