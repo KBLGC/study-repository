@@ -1,4 +1,4 @@
-package test.spring_boot_jenkins;
+package test.spring_boot_jenkins.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
