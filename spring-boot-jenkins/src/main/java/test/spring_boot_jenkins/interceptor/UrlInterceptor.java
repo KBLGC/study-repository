@@ -13,6 +13,7 @@ public class UrlInterceptor extends HandlerInterceptorAdapter{
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
 		request.setAttribute("attribute", "test attribute");
+		String strTest="";
 		return true;
 	}
 }

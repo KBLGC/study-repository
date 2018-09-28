@@ -1,4 +1,4 @@
-package test.spring_boot_jenkins.configuration;
+package com.configuration;
 
 import java.util.List;
 
@@ -14,7 +14,8 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import test.spring_boot_jenkins.interceptor.UrlInterceptor;
+import com.interceptor.UrlInterceptor;
+
 
 @Configuration
 public class InterceptorConfig implements WebMvcConfigurer{
