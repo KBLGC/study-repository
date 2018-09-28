@@ -1,9 +1,14 @@
 package test.spring_boot_jenkins.configuration;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;
+
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
+
+import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
@@ -30,8 +35,12 @@ public class InterceptorConfig implements WebMvcConfigurer{
     }
     
     @Override
+
     public void addCorsMappings(CorsRegistry registry) {
     	// TODO Auto-generated method stub
     	WebMvcConfigurer.super.addCorsMappings(registry);
+    }
+    public void addArgumentResolvers(List<HandlerMethodArgumentResolver> resolvers) {
+    	WebMvcConfigurer.super.addArgumentResolvers(resolvers);
     }
 }
