@@ -19,5 +19,11 @@ public class UserServiceImpl implements UserService{
 		
 		return userMapper.selectOne(new User(id));
 	}
-      
+
+	@Override
+	public int register(User user) {
+		
+		return userMapper.insert(user);
+	}
+     
 }
