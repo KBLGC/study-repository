@@ -12,5 +12,3 @@ spring:
 mybatis:
   type-aliases-package: com.entity
       
-mysql:
-   test: test
