@@ -7,7 +7,7 @@ spring:
       initial-size: 5
       max-wait: 60000
       min-idle: 5
-      max-active: 100
+      max-active: 1000
 
 mybatis:
   type-aliases-package: com.entity
