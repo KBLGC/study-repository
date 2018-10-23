@@ -19,6 +19,8 @@ public class User {
 	@Column
 	private String nickname;
 	
+	private Integer type;
+	
 	public User(){
 		
 	}
