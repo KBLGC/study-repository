@@ -96,7 +96,6 @@
         <url>github.com/KBLGC/study-repository</url>
         <!--项目查看地址-->
         <developerConnection>scm:git:https://github.com/KBLGC/study-repository.git</developerConnection>
-      <!-- <tag>1.0.1</tag> -->
-    <tag>1.0.0</tag>
+      <tag>1.0.1</tag>
   </scm>
 </project>
