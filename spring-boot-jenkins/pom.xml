@@ -8,8 +8,8 @@
 
 	<groupId>test</groupId>
 	<artifactId>spring-boot-jenkins</artifactId>
- 	<version>0.0.2</version>
-	<packaging>war</packaging>
+ 	<version>0.0.2.SNAPSHOT</version>
+	<packaging>jar</packaging>
 
 	<name>spring-boot-jenkins</name>
 	<url>http://maven.apache.org</url>
