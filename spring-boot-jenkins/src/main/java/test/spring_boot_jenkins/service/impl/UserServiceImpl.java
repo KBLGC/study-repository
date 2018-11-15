@@ -2,13 +2,14 @@ package test.spring_boot_jenkins.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.mybatis.spring.boot.autoconfigure.ConfigurationCustomizer;
 
 import test.spring_boot_jenkins.entity.User;
 import test.spring_boot_jenkins.mapper.UserMapper;
 import test.spring_boot_jenkins.service.UserService;
 
 @Service
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl   implements UserService{
 	
 	@Autowired
 	UserMapper userMapper;
