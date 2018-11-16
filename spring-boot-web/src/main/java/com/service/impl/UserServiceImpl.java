@@ -4,8 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.entity.User;
-import com.mapper.UserMapper;
+import com.mapper.mapper1.UserMapper;
 import com.service.UserService;
+import com.utils.StringUtil;
 
 
 @Service
@@ -18,6 +19,12 @@ public class UserServiceImpl implements UserService{
 	public User getUserById(Long id) {
 		
 		return userMapper.selectOne(new User(id));
+	}
+	
+	@Override
+	public User getUserById(User record) {
+		System.out.println(StringUtil.staticMethod(record.getNickname()));
+		return userMapper.selectOne(record);
 	}
 	
 	@Override

@@ -1,13 +1,23 @@
 spring:
   datasource:
-    druid:
-      url: jdbc:mysql://localhost:3306/spring?useSSL=false
-      username: root 
+#    druid:
+#      url: jdbc:mysql://localhost:3306/spring?useSSL=false
+#      username: root 
+#      password: 123456
+#      initial-size: 5
+#      max-wait: 60000
+#      min-idle: 5
+#      max-active: 200
+    mysql: 
+      url: jdbc:mysql://localhost:3306/data_source_test?useSSL=false
+      username:  root 
       password: 123456
-      initial-size: 5
-      max-wait: 60000
-      min-idle: 5
-      max-active: 200
+      driver: com.mysql.jdbc.Driver
+    mysql1: 
+      url: jdbc:mysql://localhost:3306/spring?useSSL=false
+      username:  root 
+      password: 123456
+      driver: com.mysql.jdbc.Driver
 
 mybatis:
   type-aliases-package: com.entity

@@ -1,4 +1,6 @@
-package com.mapper;
+package com.mapper.mapper1;
+
+import org.springframework.stereotype.Repository;
 
 import com.entity.User;
 
