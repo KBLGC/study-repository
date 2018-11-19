@@ -8,6 +8,7 @@ import org.mybatis.spring.boot.autoconfigure.ConfigurationCustomizer;
 import test.spring_boot_jenkins.entity.User;
 import test.spring_boot_jenkins.mapper.UserMapper;
 import test.spring_boot_jenkins.service.UserService;
+//import tk.mybatis.mapper.autoconfigure.ConfigurationCustomizer;
 
 @Service
 public class UserServiceImpl   implements UserService{
