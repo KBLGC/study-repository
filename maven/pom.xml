@@ -80,6 +80,5 @@
         <url>github.com/KBLGC/study-repository</url>
         <!--项目查看地址-->
         <developerConnection>scm:git:https://github.com/KBLGC/study-repository.git</developerConnection>
-    <tag>0.0.9-SNAPSHOT</tag>
   </scm>
 </project>
